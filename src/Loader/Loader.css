@@ -1,0 +1,27 @@
+#preload {
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #16160ea9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s ease-in-out;
+}
+
+.preloader-invisible {
+    opacity: 0;
+  }
+
+  .wrapper {
+    position: fixed;
+    height: 100vh;
+    display: flex;
+  }
+  
+  svg {
+    margin: auto;
+  }
