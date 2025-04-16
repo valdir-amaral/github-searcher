@@ -1,5 +1,7 @@
 # Procurador de Github
 
+![Print da tela do projeto](./docs/screenshot.png)
+
 Esse projeto tem como objetivo procurar perfis do Github pela API oficial da plataforma. É possível visualizar se o usuário existe, seu nome, bio e, caso exista, um link que redireciona para o seu perfil e site pessoal.
 
 ## Pontos adicionados
