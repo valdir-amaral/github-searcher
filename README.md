@@ -29,8 +29,8 @@ Para iniciar o projeto localmente, você pode rodar o comando:
 
 `npm start`
 
-Roda o projeto no modo de desenvolvimento.\
-Abra o seu navegador em [http://localhost:3000](http://localhost:3000) to visualizar o projeto rodando em tempo real.
+Esse comando roda o projeto no modo de desenvolvimento.\
+Abra o seu navegador em [http://localhost:3000](http://localhost:3000) para visualizar o projeto rodando em tempo real.
 
 ### Saiba mais
 
