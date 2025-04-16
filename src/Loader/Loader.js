@@ -5,7 +5,7 @@ const Loader = ({ fadeOut }) => {
 
   return (
     <div id='preload' className={fadeOut ? 'preloader-invisible' : ''}>
-        <div class="wrapper">
+        <div className="wrapper">
             <svg width="128px" height="128px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <defs>
                 <mask id="head">

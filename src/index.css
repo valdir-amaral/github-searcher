@@ -19,6 +19,9 @@ body {
   color: white;
   height: 100dvh;
 }
+html {
+  overflow-x: hidden;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -1,11 +1,12 @@
 
 .App {
-  height: 100dvh;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
+  position: relative;
 }
 
 h1 {
@@ -193,4 +194,36 @@ input:focus {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+@media screen and (max-width: 800px) {
+  .dots {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 48px;
+  }
+  h1 img {
+    max-width: 100px;
+  }
+  .input-wrapper input {
+    font-size: 16px;
+  }
+  .input-wrapper button img {
+    margin-top: -4px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .result-wrapper {
+    flex-direction: column;
+    padding: 12px 16px;
+  }
+  .bg-dot {
+    display: none;
+  }
+  
 }
